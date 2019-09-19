@@ -1,0 +1,38 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "This is document description API for Project Module for nodejs project",
+      "version": "1.0.1",
+      "title": "Module for nodejs project",
+      "license": {
+        "name": "MIT",
+        "url": "https://en.wikipedia.org/wiki/MIT_License"
+      }
+    },
+    "host": "localhost:3333",
+    "basePath": "/api/v1",
+    "tags": [
+      {
+        "name": "example1",
+        "description": "API example1"
+      },
+      {
+        "name": "example2",
+        "description": "API example2"
+      },
+      {
+        "name": "example3",
+        "description": "API example3"
+      }
+    ],
+    "schemes": [
+      "https",
+      "http"
+    ],
+    "path":{
+
+    },
+    "definitions": {
+    }
+  }
+  

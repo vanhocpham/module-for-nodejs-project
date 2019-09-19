@@ -11,7 +11,7 @@ const api = require( "./lib/routes" );
 const mongoose = require( "mongoose" );
 const dotenv = require( "dotenv" );
 const swaggerUi = require( "swagger-ui-express" );
-// const swaggerDoc = require( "./swagger" );
+const swaggerDoc = require( "./swagger" );
 
 let server = null;
 
@@ -58,7 +58,7 @@ app.use( logger( "dev" ) );
 app.use( "/api/v1", api );
 
 // config swagger
-// app.use( "/api-docs", swaggerUi.serve, swaggerUi.setup( swaggerDoc ) );
+app.use( "/api-docs", swaggerUi.serve, swaggerUi.setup( swaggerDoc ) );
 
 // route default
 app.use( "/", ( req, res ) => res.send( "API running!" ) );
