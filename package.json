@@ -1,0 +1,23 @@
+{
+  "name": "module-for-nodejs-project",
+  "version": "1.0.0",
+  "description": "general module for nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoc-anms/module-for-nodejs-project.git"
+  },
+  "keywords": [
+    "nodejs",
+    "module"
+  ],
+  "author": "hoc-anms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoc-anms/module-for-nodejs-project/issues"
+  },
+  "homepage": "https://github.com/hoc-anms/module-for-nodejs-project#readme"
+}
