@@ -41,11 +41,7 @@ mongoose.set( "useFindAndModify", false );
 app.set( "port", process.env.PORT_BASE );
 
 // handle cors
-app.use( cors( {
-  "origin": "*",
-  "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
-  "allowedHeaders": [ "Content-Type", "Authorization" ],
-  "exposedHeaders": [ "Cookie" ] } ) );
+app.use( cors() );
 
 // handle form data using bodyParser
 app.use( bodyParser.json( { "extended": true } ) );
